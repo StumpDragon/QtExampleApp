@@ -13,7 +13,7 @@ qt_standard_project_setup(I18N_LANGUAGES en es fr de jp)
 qt_add_executable(QtExampleApp src/main.cpp)
 
 
-qt_add_translations(TARGETS QtExampleApp 
+qt_add_translations(TARGETS QtExampleApp
     TS_FILE_DIR i18n
     #TS_FILE_BASE i18n
 )
