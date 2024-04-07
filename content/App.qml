@@ -10,7 +10,7 @@ Window {
     height: mainScreen.height
 
     visible: true
-    title: tr("QtExample")
+    title: qsTr("QtExample")
 
     Screen01 {
         id: mainScreen
